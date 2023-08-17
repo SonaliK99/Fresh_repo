@@ -8,10 +8,12 @@ console.log(address);
 //Number datatypes
 let amount=100000
 console.log(amount);
-//Boolean
+
+
 let amt=2234455
 console.log(amt);
 
+//Boolean
 let passed = true
 console.log(passed);
 
@@ -39,3 +41,10 @@ let list = ['Soanli','MCA','Khosle']
 console.log(list);
 
 console.log(typeof(list));
+
+//bigInt
+let price=BigInt('9999999999999999999');
+console.log(price);
+
+let price1=999999999999999999n
+console.log(price1);
